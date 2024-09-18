@@ -23,7 +23,7 @@ const GoogleMapComponent: React.FC<GoogleMapProps> = ({ width, height, lat = 13.
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyAQF_bRb6_yfKjJmAW4EFL3VLrC07tl5i4">
+    <LoadScript googleMapsApiKey="google_api_key">
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
